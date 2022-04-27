@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="connectionpool.ConnectionPoolTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-04-27T19:54:57" hostname="Arlynes-MBP" time="0.984">
+  <properties/>
+  <testcase name="given connection pool available when getConnection with 0 delays then should return connection" classname="connectionpool.ConnectionPoolTest" time="0.957"/>
+  <testcase name="given null connection when release connection then should throw exception" classname="connectionpool.ConnectionPoolTest" time="0.008"/>
+  <testcase name="given maximum connection is reached when getConnection then should return null" classname="connectionpool.ConnectionPoolTest" time="0.003"/>
+  <testcase name="given no new connection was created when release connection then should throw exception" classname="connectionpool.ConnectionPoolTest" time="0.003"/>
+  <testcase name="given all connections were released when release connection then should throw exception" classname="connectionpool.ConnectionPoolTest" time="0.003"/>
+  <testcase name="given connection pool available when getConnection with delays then should return connection" classname="connectionpool.ConnectionPoolTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
